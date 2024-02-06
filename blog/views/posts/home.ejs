@@ -9,7 +9,7 @@
     <h1>My Posts</h1>
     <ul>
         <% for (let p of posts) {%>
-            <li><div><%= p.text %></div> <b><%= p.author %></b></li>
+            <li><div><a href="https://didactic-journey-9xw6g5j5747fxq4v-3000.app.github.dev/show/<%=p.id%>"><%= p.title %></a></div> <b><%= p.author %></b></li>
             <% }%>
     </ul>
     <button><a href="https://didactic-journey-9xw6g5j5747fxq4v-3000.app.github.dev/newpost">Add your post</a></button>

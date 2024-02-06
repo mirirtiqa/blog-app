@@ -9,12 +9,14 @@
     <h1>Paint the screen with you vivid thoughts..</h1>
     <form action= "https://didactic-journey-9xw6g5j5747fxq4v-3000.app.github.dev/newpost" method="POST">
         <section>
-            <label for="title">Title:</label>
+            <label for="author">Author:</label>
+            <input name="author" id="author" type="text">
             <br>
+            <label for="title">Title:</label>
             <input name="title" id="title" type="text">
         </section>
         <section>
-            <textarea name="text" id="text" cols="30" rows="50" placeholder="Write your blog post here..."></textarea>
+            <textarea name="text" id="text" cols="200" rows="50" placeholder="Write your blog post here..."></textarea>
         </section>
         <button>Publish</button>
         </form>

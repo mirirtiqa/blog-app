@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action= "https://didactic-journey-9xw6g5j5747fxq4v-3000.app.github.dev/edit/<%=post.id%>?_method=PATCH" method="POST">
+        <section>
+            <label for="title">Title:</label>
+            <input name="title" id="title" type="text" placeholder=<%=post.title%>>
+        </section>
+        <section>
+            <textarea name="text" id="text" cols="200" rows="50"><%=post.text%></textarea>
+        </section>
+        <button>Publish</button>
+        </form>
+</body>
+</html>
